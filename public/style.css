@@ -1,0 +1,128 @@
+
+textarea {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  font-family: arial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9999;
+  position: relative;
+}
+
+
+
+.box1{
+	margin: auto;
+	width: 90%;
+	z-index: 9999;
+  	position: relative;
+  	font-family: arial;
+}
+
+.title{
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+  	margin-top: 30px;
+  	margin-bottom: 10px;
+  	font-family: arial;
+  	font-size: 30px;
+  	text-align: center;
+	font-weight: bold;
+	z-index: 9999;
+  	position: relative;
+}
+
+.box{
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	font-size: 30;
+	font-weight: bold;
+	font-family: arial;
+	z-index: 9999;
+  	position: relative;
+}
+
+#tlonizedeng{
+	font-size: 16;
+	font-weight: bold;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+}
+
+.button1 {
+    background-color: #555555;
+    color: white;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #555555;
+}
+
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover   {color:white; background-color:transparent; text-decoration:underline}
+a:active  {color:white; background-color:transparent; text-decoration:underline}
+
+#docu{
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    margin: 10px 10px 40px;
+}
+
+#outer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    margin: 130px 1px 40px;
+}
+
+#demo{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+body{
+	z-index: 9999;
+}
+
+#page-title{
+	font-size: 8em;
+    text-align: center;
+    margin: 10px 1px 40px;
+    color: white;
+    font-family: Arial;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
